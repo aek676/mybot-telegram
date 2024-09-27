@@ -1,18 +1,12 @@
-import readline
+from linkvertise import LinkvertiseClient
 
-def main():
-    # Configuración de readline
-    readline.set_startup_hook(lambda: readline.insert_text("Texto inicial. "))
+# Defining the client
+client = LinkvertiseClient()
 
-    try:
-        # Leer la entrada del usuario
-        entrada = input("Escribe algo: ")
-    finally:
-        # Limpiar el hook de inicio
-        readline.set_startup_hook()
+# Creating a linkvertise url, and printing it
+# 25565 is your linkvertise account id, and,
+# google.com is link to monetize.
+link = client.linkvertise(1234378, "https://pastelink.net/npj9vaui")
+print(link)
 
-    print("Texto ingresado:", entrada)
-
-# Ejecutar el programa
-if __name__ == "__main__":
-    main()
+# Returns https://link-to.net/25565/832.3652483894998/dynamic?r=Z29vZ2xlLmNvbQ==
