@@ -1,2 +1,6 @@
-Nombre, Imagen, Linkvertise, Pastelink
-Mydearpolly / pollydolll / Angelina Preobrazhenskaya, imagen, Linkvertise, 4xfaKYR$/i(#xrc;7]fS?gsDhXY96v,
+Nombre,Imagen,Linkvertise,Pastelink, URLPastelink
+Juan,http://ejemplo.com/imagen1.jpg, https://linkvertise.com/example1, https://pastelink.net/example1, example1
+María,http://ejemplo.com/imagen2.jpg, https://linkvertise.com/example2, https://pastelink.net/example2, example2
+Pedro,http://ejemplo.com/imagen3.jpg, https://linkvertise.com/example3, https://pastelink.net/example3, example3
+Lucía,http://ejemplo.com/imagen4.jpg, https://linkvertise.com/example4, https://pastelink.net/example4, example4
+Carlos,http://ejemplo.com/imagen5.jpg, https://linkvertise.com/example5, https://pastelink.net/example5, example5

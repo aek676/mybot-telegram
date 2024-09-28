@@ -70,7 +70,7 @@ class Pastelink:
             'dry_run' : 0
         }
         res = requests.post(url, data)
-        print(json.dumps(res.json(), indent=2))
+        return json.dumps(res.json(), indent=2)
 
 
     def print_paste(self, paste_url):
